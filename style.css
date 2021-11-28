@@ -1,5 +1,5 @@
 html {
-    background: #1eff0096;
+    background: #A2CBE0;
     font-family: 'Share Tech', sans-serif;
     color: black;
     font-size: 15px;
@@ -26,6 +26,42 @@ h1 {
     flex-direction: row;
     align-items: center;
 }
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.carousel-photo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.arrow-right {
+    transform: rotate(180deg);
+}
+
+.bullet-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bullet {
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.bullet-selected {
+    background: white;
+}
+
 
 /* FLEX box
 
