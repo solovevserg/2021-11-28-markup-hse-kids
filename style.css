@@ -76,3 +76,47 @@ justify-content: flex-end
 align-items: center;
 
 */
+
+.test {
+    background-image: url('/img/photo.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.test h1 {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.test__info {
+    color: red;
+    line-height: 1.7em;
+}
+
+.line {
+    height: 2px;
+    background: red;
+}
+
+.test__button {
+    font-size: 24px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    background: linear-gradient(270deg, red, purple);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-decoration: none;
+}
+
+.test__button:hover {
+    background: black;
+    
+}
